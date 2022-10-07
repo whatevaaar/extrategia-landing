@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "Extrategia-Gotham";
+    src: url("../fonts/GOTHAM-MEDIUM.OTF");
+}
+
+body {
+    font-family: "Extrategia-Gotham";
+}
+
+h1 {
+    color: rgb(88, 88, 88);
+    font-size: 3vw;
+    font-weight: 900;
+    text-align: left;
+    margin-top: 0;
+}
+
+h2 {
+    color: rgb(88, 88, 88);
+    font-size: 2vw;
+    font-weight: 900;
+    text-align: left;
+    margin-top: 2vh;
+}
+
+label {
+    color: gray;
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+
+div label {
+    display: block;
+}
+
+input {
+    padding: 1rem;
+    border-color: #d5cfcf;
+    border-width: .1rem;
+    border-style: solid;
+}
+
+.form-span {
+    margin-bottom: 5vh;
+    color: gray;
+    font-weight: 500;
+    font-size: 1.7vw;
+}
+
+.input-name {
+    width: 87%;
+    margin-bottom: 1.5rem;
+}
+
+.logo-img {
+    margin-bottom: 7vh;
+    max-width: 60%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-l,
+.col-r {
+    padding: 2rem;
+}
+
+.col-l-img {
+    max-width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.form-text {
+    color: gray;
+    font-weight: 600;
+}
+
+.form-col {
+    width: 45%;
+    display: inline-block;
+}
+
+.input-col {
+    width: 90%;
+}
+
+.form-button {
+    margin-top: 2rem;
+    background-color: #3c3131;
+    color: white;
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 0.4rem;
+}
+
+.bullet-point {
+    font-weight: lighter;
+    font-size: 1vw;
+    color: gray
+}
+
+.input-privacy {
+    margin-top: 2vh;
+}
+
+@media screen and (max-width: 1000px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0px;
+    }
+
+    .col-l-img {
+        min-height: 10rem;
+    }
+
+    .form-span {
+        font-size: 3.7vw;
+    }
+
+    label {
+        font-size: 2.7vw;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+
+    .bullet-point {
+        font-size: 3vw;
+    }
+
+    .form-button {
+        font-size: 1rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .col-l,
+    .col-r {
+        padding: 1rem;
+    }
+
+    .input-name {
+        width: 90%;
+        margin-bottom: 0;
+    }
+
+    .form-col {
+        width: 100%;
+        display: block;
+        margin-top: 2rem;
+    }
+}

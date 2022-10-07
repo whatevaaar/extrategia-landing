@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Insight Research by Extrategia Data & Insights
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div>
+        <img class="center logo-img" src="img/logo-header.png" alt="Extrategia logo" align="center">
+    </div>
+    <div class="grid-container">
+        <div class="col-l">
+            <img class="center col-l-img" src="img/img_header.jpg">
+
+            <div>
+                <h2>¿Para que sirve?</h2>
+                <p class="bullet-point">• Estudio realizado mediante encuestas digitales entre una muestra representativa de la audiencia
+                    clave.
+                </p>
+                <p class="bullet-point">• Analiza el estado de la opinión pública sobre diversos temas de interés: economía, política,
+                    tecnología,
+                    consumo,
+                    etcétera.</p>
+            </div>
+        </div>
+
+        <div class="col-r">
+            <h1>
+                ¡La clave de las MEJORES MARCAS está en escuchar a su audiencia y entender LO QUE LES HACE CONECTAR con
+                ella!
+            </h1>
+            <p class="form-span">¡Deja tus datos y participa en el Giveaway!</p>
+            <form action="scripts/mail_handler.php" method="post">
+                <label>Nombre y Apellido*</label> <input class="input-name" type="text" name="name">
+                <div>
+                    <div class="form-col">
+                        <label>Empresa*</label>
+                        <input class="input-col" type="text" name="company">
+                    </div>
+                    <div class="form-col">
+                        <label>Email*</label>
+                        <input class="input-col" type="text" name="email">
+                    </div>
+                    <label><input class="input-privacy" type="checkbox"> Acepto el aviso de privacidad*</label>
+                </div>
+
+                <input type="submit" class="form-button" name="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

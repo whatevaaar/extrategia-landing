@@ -106,7 +106,7 @@ input {
 
 .bullet-point {
     font-weight: lighter;
-    font-size: 1vw;
+    font-size: 2vw;
     color: gray
 }
 
@@ -138,7 +138,7 @@ input {
     }
 
     .bullet-point {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     .form-button {

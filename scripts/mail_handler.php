@@ -9,7 +9,7 @@ if(isset($_POST['submit'])){
 
     $headers = "From:" . $from;
     mail($to,$subject,$message,$headers);
-    echo "Gracias por haber dejado tus datos y por participar en la campaña de Giveaway de Insight Research by Extrategia Data & Insights";
+    echo " Gracias por tu interés en nuestro reporte EXTRATEGIA '10 tendencias de comunicación para sobresalir este 2023'. En breve lo recibirás por correo electrónico";
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     // You cannot use header and echo together. It's one or the other.
     }

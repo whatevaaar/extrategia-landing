@@ -6,48 +6,53 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Insight Research by Extrategia Data & Insights</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/92df7ab971.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
-    <div>
+    <header>
       <img
         class="center logo-img"
         src="img/logo-header.png"
         alt="Extrategia logo"
         align="center"
       />
-    </div>
-    <div class="grid-container">
-      <div class="col-l">
+    </header>
+    <section class="grid-container">
+      <aside class="col-l">
         <img class="center col-l-img" src="img/img_header.png" />
-        <div>
-          <p class="form-span">
-            Descarga nuestro reporte EXTRATEGIA "10 tendencias de comunicación
-            para sobresalir este 2023" y haz que tu marca haga la diferencia.
-          </p>
-        </div>
-      </div>
+      </aside>
 
-      <div class="col-r">
-        <h1>
-          ¿Cuáles son las tendencias de comunicación que harán posible un 2023
-          exitoso?
-        </h1>
+      <article class="col-r">
+        <h1>El conocimiento es poder</h1>
+        <p>
+          Descubre las tendencias que aprovecharán las marcas líderes durante
+          este año.
+        </p>
+        <p>
+          Completa el formulario y recibe gratis el reporte
+          <strong
+            >“10 estrategias de comunicación para sobresalir en 2023”.</strong
+          >
+        </p>
         <form action="scripts/mail_handler.php" method="post">
           <label>Nombre y Apellido*</label>
-          <input class="input-name" type="text" name="name" />
+          <input class="input-name" type="text" name="name" required />
           <div>
             <div class="form-col">
               <label>Empresa*</label>
-              <input class="input-col" type="text" name="company" />
+              <input class="input-col" type="text" name="company" required />
             </div>
             <div class="form-col">
               <label>Email*</label>
-              <input class="input-col" type="text" name="email" />
+              <input class="input-col" type="text" name="email" required />
             </div>
             <label
-              ><input class="input-privacy" type="checkbox" /> Acepto el aviso
-              de privacidad*</label
+              ><input class="input-privacy" type="checkbox" required /> Acepto
+              el aviso de privacidad*</label
             >
           </div>
 
@@ -55,11 +60,35 @@
             type="submit"
             class="form-button"
             name="submit"
-            value="Submit"
+            value="Acceder al reporte"
           />
         </form>
-      </div>
-    </div>
+      </article>
+    </section>
+    <section>
+      <h2 class="subtitle">¿Por qué necesitas descargar este documento?</h2>
+      <article class="icon-grid">
+        <article>
+          <i class="fa-solid fa-chart-line"></i>
+          <p>Planear tu estrategia será más fácil con datos que la sustenten</p>
+        </article>
+
+        <article>
+          <i class="fa-solid fa-bullseye"></i>
+          <p>Conocerás las claves para triunfar en redes sociales</p>
+        </article>
+
+        <article>
+          <i class="fa-regular fa-comments"></i>
+          <p>Sabrás qué medidas te ayudarán a prevenir una crisis de marca</p>
+        </article>
+
+        <article>
+          <i class="fa-solid fa-users-viewfinder"></i>
+          <p>Recibirás tips para conectar de verdad con tu audiencia</p>
+        </article>
+      </article>
+    </section>
     <script src="index.js"></script>
   </body>
 </html>
